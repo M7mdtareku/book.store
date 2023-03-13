@@ -1,0 +1,141 @@
+body{
+    background-image: url(janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: soria;
+    src: url(soria-font.ttf);
+}
+@font-face{
+    font-family: arabic;
+    src: url(Gulzar-Regular.ttf);
+}
+.cont{
+    backdrop-filter: blur(5px);
+}
+header{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    padding-left:400px ;
+}
+header p{
+    font-size: 1.5em;
+    color: #FFDB89;
+}
+header p span{
+    font-size:3em;
+    color: #FFDB89;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+section{
+    display: flex;
+    padding: 30px;
+}
+figure{
+    filter: blur(2px);
+}
+nav{
+    padding-left: 700px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 0;
+    margin: 7px;
+    background-color: #AD8E70;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #F5EDCE;
+    transition: all .5s ease;
+}
+button:hover{
+    letter-spacing: 3px;
+    background-color:#C58940;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #FAEAB1 0px 7px 29px 0px;
+}
+button:active{
+    letter-spacing: 3px;
+    background-color: #DFD3C3;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #DFD3C3(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+.onee {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #181D31;
+    border: solid 4px #FFDB89;
+    font-family: inherit;
+}
+.default-btn,.hover-btn {
+    background-color: #181D31;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color:#AD8E70;
+    transform: translate(0%,100%);
+}
+.default-btn span {
+    color: hsl(0, 0%, 100%);
+}   
+.hover-btn span {
+    color: hsl(50deg 100% 50%);
+}   
+button:hover .default-btn {
+    transform: translate(0%,-100%);
+}   
+button:hover .hover-btn {
+    transform: translate(0%,0%);
+}
+p ,h1 ,span{
+    font-family: soria;
+}
+.par{
+    color: #1e1e1e;
+    font-size: 20px;
+    text-align: center;
+}
+aside{
+    font-family: soria;
+    font-size: x-large;
+}
+aside p{
+    display: inline;
+    margin: 8px;
+    font-family: arabic;
+}
+.cc{
+    margin-bottom: 20px;
+    font-family: soria;
+}
+
+
+
+
